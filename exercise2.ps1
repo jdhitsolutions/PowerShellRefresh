@@ -1,4 +1,4 @@
-#region 1. Create a new PSDrive called WIN that maps to C:\Windows/
+#region 1. Create a new PSDrive called WIN that maps to C:\Windows
 
     #region answers
         New-PSDrive -Name Win -PSProvider FileSystem -Root c:\Windows
