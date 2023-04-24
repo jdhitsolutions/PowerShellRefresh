@@ -1,3 +1,5 @@
+#requires -version 5.1
+#requires -RunAsAdministrator
 Function Get-CriticalEventLogEntry {
     [CmdletBinding()]
     Param(
@@ -7,6 +9,7 @@ Function Get-CriticalEventLogEntry {
             HelpMessage = 'Specify a Windows event log name like System.'
         )]
         [string]$LogName,
+        [alias("box")]
         [string]$Computername = $env:COMPUTERNAME,
         [int]$Count = 20
     )
