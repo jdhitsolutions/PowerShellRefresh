@@ -4,6 +4,7 @@
 
 2. Find a command that will show you information about your network adapters. Write a script that get all connected network adapters and show the adapter name, MAC address, the connection speed, the interface index, the description, and the computer name. Show the computer name with a property called ComputerName. For extra credit, have your script take a computer name as a parameter.
 
-3. Run the script from Exercise 2 and save the output to a JSON file.
+3. Run the script from the previous lab and save the output to a JSON file.
 
 4. Take any of the exercises from today and turn them into a PowerShell function that accepts parameter input.
+
